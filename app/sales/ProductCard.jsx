@@ -20,8 +20,8 @@ const ProductCard = () => {
                     <p className="text-xs text-muted-foreground">
                         6487409e6f0749807f51ce40
                     </p>
-                    <p className="text-sm text-black">
-                        Category: Jeans
+                    <p className="text-sm text-muted-foreground">
+                        Category: <span className="text-black font-medium">Jeans</span>
                     </p>
                 </CardHeader>
                 <CardContent>

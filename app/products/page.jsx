@@ -1,6 +1,6 @@
 'use client';
 
-import { DataGrid } from '@mui/x-data-grid';
+import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 import { productData } from '@/data';
 import { MoreHorizontal } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -141,6 +141,9 @@ export default async function ProductsPage() {
                         pageSizeOptions={[5, 10, 25]}
                         checkboxSelection
                         autoPageSize
+                        slots={{
+                            toolbar: GridToolbar,
+                        }}
                     />
                 </div>
             </div>

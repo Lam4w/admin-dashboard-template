@@ -42,6 +42,12 @@ export function MainNav({
         Orders
       </Link>
       <Link
+        href="/collections"
+        className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+      >
+        Collections
+      </Link>
+      <Link
         href="/create"
         className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
       >

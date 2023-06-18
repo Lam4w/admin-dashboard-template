@@ -33,7 +33,6 @@ export default function AuthenticationPage() {
                 </p>
                 </div>
                 <LoginForm />
-                
             </div>
             </div>
         </div>
